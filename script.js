@@ -25,6 +25,17 @@ const closeInfo = document.getElementById("closeInfo");
 
 const siteLogo = document.getElementById("siteLogo");
 
+const puckImages = [
+    "brownpuck.png",
+    "bluepuck.png",
+    "greenpuck.png"
+];
+
+puckImages.forEach(src => {
+    const img = new Image();
+    img.src = src;
+});
+
 function updateLogo() {
 
     if (state.theme === "beige") {
