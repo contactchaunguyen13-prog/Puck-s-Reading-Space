@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Puck's Reading Space</title>
+
+  <link rel="icon" type="image/png" href="faviconpuck.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+  <!-- ================= HERO ================= -->
+
+  <div class="hero">
+
+    <img
+    id="siteLogo"
+    src="brownpuck.png"
+    alt="Puck reading"
+    class="site-logo"
+>
+  <h1>Puck's Reading Space</h1>
+  <p class="subtitle">This space adapts to you. Move gently.</p>
+</div>
+
+
+
+  <!-- ================= MAIN CARD ================= -->
+
+  <div class="card">
+
+    <!-- Editor -->
+    <div id="editorSection">
+      <textarea
+        id="textInput"
+        spellcheck="false"
+        placeholder="Paste your text here...">
+      </textarea>
+    </div>
+
+    <!-- Mode Buttons -->
+    <div class="controls">
+      <button id="flowBtn" class="active">Steady Flow</button>
+      <button id="emphasisBtn">Gentle Emphasis</button>
+      <button id="chunkBtn">Soft Breaks</button>
+    </div>
+
+    <!-- Rhythm Slider -->
+    <div id="rhythmControl" class="slider-container">
+      <label for="speed">Reading Rhythm</label>
+
+      <input
+        type="range"
+        id="speed"
+        min="0"
+        max="100"
+        value="40"
+      >
+
+      <div id="speedValue">40%</div>
+
+      <div class="thresholds">
+        <span>Very Soft</span>
+        <span>Balanced</span>
+        <span>Strong</span>
+      </div>
+    </div>
+
+    <!-- Output Display -->
+    <div id="display"></div>
+
+  </div>
+
+
+
+  <!-- ================= INFO MODAL ================= -->
+
+  <!-- Floating Controls -->
+<div class="floating-controls">
+
+  <button id="themeBtn" class="theme-button" aria-label="Change color theme">
+    ☀
+  </button>
+
+  <button id="infoBtn" class="info-button" aria-label="About this space">
+    i
+  </button>
+
+</div>
+
+  <!-- Overlay -->
+  <div id="infoOverlay" class="info-overlay">
+
+    <div class="info-modal">
+
+      <button id="closeInfo" class="close-info">✕</button>
+
+      <div class="info-modal-content">
+
+        <h2>About this space</h2>
+
+        <p>
+          I don't always struggle to read. Sometimes, I just struggle to stay.
+          The words are there. My eyes scan across the page. But they don't always hold me.
+          So I made this. Not to fix anything. Just to make it easier to stay a little longer.
+        </p>
+
+        <h3>How it works</h3>
+
+        <p>
+          <strong>Steady Flow</strong><br>
+          Softly guides focus through the page, helping reading feel steadier and less visually overwhelming.
+        </p>
+
+        <p>
+          <strong>Gentle Emphasis</strong><br>
+          Softly strengthens the beginning of words to support focus.
+        </p>
+
+        <p>
+          <strong>Soft Breaks</strong><br>
+          Gently separates text into smaller pauses, making longer passages feel lighter and easier to move through.
+        </p>
+
+        <h3>Privacy</h3>
+
+        <p>
+          Everything stays in your browser.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    © 2026 Puck's Reading Space. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
