@@ -186,14 +186,18 @@ function startFlow(intensity = state.rhythm) {
 
     renderedParagraphs.forEach(paragraph => {
 
-    paragraph.addEventListener("mouseenter", () => {
+    function activateParagraph() {
 
-    renderedParagraphs.forEach(p => {
+        renderedParagraphs.forEach(p => {
             p.classList.remove("active-focus");
         });
 
         paragraph.classList.add("active-focus");
-    });
+    }
+
+    paragraph.addEventListener("mouseenter", activateParagraph);
+    paragraph.addEventListener("click", activateParagraph);
+    paragraph.addEventListener("touchstart", activateParagraph, { passive: true });
 
 });
 
