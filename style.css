@@ -483,6 +483,9 @@ input[type="range"]::-moz-range-thumb {
   cursor: pointer;
   box-shadow: var(--shadow-medium);
 
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+
   transition:
     transform 0.2s ease,
     background 0.2s ease;
@@ -493,6 +496,14 @@ input[type="range"]::-moz-range-thumb {
   .info-button:hover {
     transform: scale(1.08);
     background: var(--button-hover);
+  }
+}
+
+@media (hover: none) {
+  .theme-button:hover,
+  .info-button:hover {
+    transform: none;
+    background: var(--button-active);
   }
 }
 
