@@ -488,10 +488,12 @@ input[type="range"]::-moz-range-thumb {
     background 0.2s ease;
 }
 
-.theme-button:hover,
-.info-button:hover {
-  transform: scale(1.08);
-  background: var(--button-hover);
+@media (hover: hover) {
+  .theme-button:hover,
+  .info-button:hover {
+    transform: scale(1.08);
+    background: var(--button-hover);
+  }
 }
 
 .theme-button {
