@@ -290,6 +290,8 @@ if (level < 40) {
 } else {
     modeLevel = 3;
 }
+
+  display.classList.add("mode-chunk");
     
     if (modeLevel === 3) {
     display.classList.add("mode-chunk-level3");
