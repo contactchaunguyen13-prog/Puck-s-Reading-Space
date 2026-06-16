@@ -436,6 +436,10 @@ input[type="range"]::-moz-range-thumb {
   margin-right: var(--chunk-gap);
 }
 
+.mode-chunk-level3 .chunk:last-child {
+  margin-bottom: 40px;
+}
+
 .mode-chunk-level3 {
   max-width: 55ch;
   line-height: 2.2;
@@ -444,10 +448,8 @@ input[type="range"]::-moz-range-thumb {
 
 .mode-chunk-level3 .chunk {
   display: block;
-  margin-right: 1.6em;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
   padding-left: 6px;
-
   transition: none;
 }
 
