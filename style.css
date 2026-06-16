@@ -233,7 +233,7 @@ textarea:focus {
   color: var(--text-main);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-/*
+
 .controls button:focus-visible,
 .theme-button:focus-visible,
 .info-button:focus-visible,
@@ -497,29 +497,6 @@ input[type="range"]::-moz-range-thumb {
     transform: scale(1.08);
     background: var(--button-hover);
   }
-}
-
-@media (hover: none), (pointer: coarse) {
-  .theme-button:hover,
-  .info-button:hover,
-  .theme-button:active,
-  .info-button:active,
-  .theme-button:focus,
-  .info-button:focus {
-    transform: none;
-    background: var(--button-active);
-  }
-}
-
-.theme-button:focus,
-.info-button:focus {
-  background: var(--button-active);
-  outline: none;
-}
-
-.theme-button:focus-visible,
-.info-button:focus-visible {
-  background: var(--button-active);
 }
 
 .theme-button {
