@@ -511,6 +511,17 @@ input[type="range"]::-moz-range-thumb {
   }
 }
 
+.theme-button:focus,
+.info-button:focus {
+  background: var(--button-active);
+  outline: none;
+}
+
+.theme-button:focus-visible,
+.info-button:focus-visible {
+  background: var(--button-active);
+}
+
 .theme-button {
   font-size: 22px;
 }
