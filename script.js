@@ -451,6 +451,8 @@ themeBtn.addEventListener("click", () => {
 
     saveState();
     render();
+
+    themeBtn.blur();
 });
 
 function closeModal() {
@@ -461,6 +463,8 @@ function closeModal() {
 infoBtn.addEventListener("click", () => {
     infoOverlay.classList.add("active");
     document.body.classList.add("modal-open");
+
+    infoBtn.blur();
 });
 
 closeInfo.addEventListener("click", closeModal);
