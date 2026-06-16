@@ -316,8 +316,8 @@ if (level < 40) {
         if (modeLevel >= 2 && wordCount > commaTrigger) {
                 const commaParts = sentence.split(/(?<=,)\s+/);
                 
-                // Protection: Each chunk must have ≥ 3 words
-                const validCommaParts = commaParts.every(part => 
+            // Protection: Each chunk must have ≥ 3 words
+            const validCommaParts = commaParts.every(part => 
                     part.trim().split(/\s+/).length >= 3
                 );
 
