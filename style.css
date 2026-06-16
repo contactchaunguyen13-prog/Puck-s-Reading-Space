@@ -499,9 +499,13 @@ input[type="range"]::-moz-range-thumb {
   }
 }
 
-@media (hover: none) {
+@media (hover: none), (pointer: coarse) {
   .theme-button:hover,
-  .info-button:hover {
+  .info-button:hover,
+  .theme-button:active,
+  .info-button:active,
+  .theme-button:focus,
+  .info-button:focus {
     transform: none;
     background: var(--button-active);
   }
