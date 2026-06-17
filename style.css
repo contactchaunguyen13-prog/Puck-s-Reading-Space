@@ -420,6 +420,10 @@ input[type="range"]::-moz-range-thumb {
   color: var(--text-main);
 }
 
+.mode-emphasis p {
+  margin-bottom: 12px;
+}
+
 .mode-emphasis strong {
   font-weight: 700;
   color: var(--text-main);
