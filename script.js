@@ -259,7 +259,7 @@ function gentleEmphasis(intensity = state.rhythm) {
 
         }).join(" ");
 
-    }).join("<br><br>");
+    }).map(paragraph => `<p>${paragraph}</p>`).join("");
 
     display.innerHTML = emphasizedText;
 
