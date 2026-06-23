@@ -310,7 +310,7 @@ if (level < 40) {
             let workingParts = [sentence.trim()];
             const wordCount = sentence.trim().split(/\s+/).length;
 
-            // --- LEVEL 2: Long Sentence Relief (Trigger: > 16 words) ---
+        // --- LEVEL 2: Long Sentence Relief (Trigger: > 16 words) ---
             const commaTrigger = level < 50 ? 22 : 16;
 
         if (modeLevel >= 2 && wordCount > commaTrigger) {
@@ -326,7 +326,7 @@ if (level < 40) {
                 }
             }
 
-            
+        // --- LEVEL 3: Clauses spacing (The Big Shot) ---
             if (modeLevel === 3) {
                 workingParts = workingParts.flatMap(part => {
                     const partWordCount = part.split(/\s+/).length;
@@ -335,7 +335,7 @@ if (level < 40) {
                     if (partWordCount <= conjunctionTrigger) return [part];
 
                     
-                    const conjRegex = /(?<=\s)(and|but|because|although|when|whereas|while|such as|or|nor|yet)\s/i;
+                    const conjRegex = /(?<=\s)(and|but|because|although|when|whereas|while|whilist|such as|or|nor|yet)\s/i;
                     const split = part.split(conjRegex);
 
                     if (split.length < 3) return [part];
@@ -346,7 +346,7 @@ if (level < 40) {
                         let piece = split[i].trim();
                         if (!piece) continue;
 
-                        if (piece.match(/^(and|but|because|although|when|whereas|while|such as|or|nor|yet)$/i) && i + 1 < split.length) {
+                        if (piece.match(/^(and|but|because|although|when|whereas|while|whilist|such as|or|nor|yet)$/i) && i + 1 < split.length) {
                             rebuilt.push(piece + " " + split[i+1].trim());
                             i++; 
                         } else {
