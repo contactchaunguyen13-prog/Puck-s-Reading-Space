@@ -330,12 +330,12 @@ if (level < 40) {
             if (modeLevel === 3) {
                 workingParts = workingParts.flatMap(part => {
                     const partWordCount = part.split(/\s+/).length;
-                    const conjunctionTrigger = level < 80 ? 24 : 16;
+                    const conjunctionTrigger = level < 80 ? 20 : 12;
 
                     if (partWordCount <= conjunctionTrigger) return [part];
 
                     
-                    const conjRegex = /(?<=\s)(and|but|because|although|when|whereas|while|such as|or)\s/i;
+                    const conjRegex = /(?<=\s)(and|but|because|although|when|whereas|while|such as|or|nor|yet)\s/i;
                     const split = part.split(conjRegex);
 
                     if (split.length < 3) return [part];
@@ -346,7 +346,7 @@ if (level < 40) {
                         let piece = split[i].trim();
                         if (!piece) continue;
 
-                        if (piece.match(/^(and|but|because|although|when|whereas|while|such as|or)$/i) && i + 1 < split.length) {
+                        if (piece.match(/^(and|but|because|although|when|whereas|while|such as|or|nor|yet)$/i) && i + 1 < split.length) {
                             rebuilt.push(piece + " " + split[i+1].trim());
                             i++; 
                         } else {
