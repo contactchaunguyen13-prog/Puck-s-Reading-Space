@@ -335,7 +335,7 @@ if (level < 40) {
                     if (partWordCount <= conjunctionTrigger) return [part];
 
                     
-                    const conjRegex = /(?<=\s)(and|as|but|because|although|when|whereas|while|whilist|such as|or|nor|yet)\s/i;
+                    const conjRegex = /(?<=\s)(and|but|because|although|though|when|whereas|while|whilst|such as|or|nor|yet|however|therefore|moreover|furthermore|nevertheless|instead|as if|as though)\s/i;
                     const split = part.split(conjRegex);
 
                     if (split.length < 3) return [part];
@@ -346,7 +346,7 @@ if (level < 40) {
                         let piece = split[i].trim();
                         if (!piece) continue;
 
-                        if (piece.match(/^(and|as|but|because|although|when|whereas|while|whilist|such as|or|nor|yet)$/i) && i + 1 < split.length) {
+                        if (piece.match(/^(and|but|because|although|though|when|whereas|while|whilst|such as|or|nor|yet|however|therefore|moreover|furthermore|nevertheless|instead|as if|as though)$/i) && i + 1 < split.length) {
                             rebuilt.push(piece + " " + split[i+1].trim());
                             i++; 
                         } else {
