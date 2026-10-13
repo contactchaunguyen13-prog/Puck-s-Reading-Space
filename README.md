@@ -1,8 +1,4 @@
-Puck's Reading Space
-
-A safe haven for digital reading.
-
-![Puck's Reading Space demo](lv_0_20260808163807.gif)
+Puck's Reading Space: A safe haven for digital reading
 
 Puck's Reading Space is the flagship product of PuckReads, a student-led initiative exploring ways to make digital reading experience more comfortable and accessible for friends around the world.
 
@@ -23,8 +19,16 @@ Breaks text into smaller, more manageable chunks while preserving the natural fl
 
 Readers can experiment with these modes and personalize their digital reading experience at their own pace!
 
+![Puck's Reading Space demo](lv_0_20260808163807.gif)
+
 Brainstorming in Dec 2025, building from Jan 2026, public launch in July 2026
+
 Built with HTML/CSS/Javascript
+
 Hosted on Vercel
+
 Link to space: pucksreadingspace.vercel.app
+
 Active User counts: 3K+
+
+© 2026 Puck's Reading Space. Made with care <3
