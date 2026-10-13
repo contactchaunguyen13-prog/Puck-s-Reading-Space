@@ -11,13 +11,13 @@ _Instead of asking readers to adapt to the text, what if the text could adapt to
 
 Designed around flexibility rather than a one-size-fits-all approach, the platform offers three customizable reading modes:
 
-01. Steady Flow
+01. Steady Flow:
 A focus-supporting mode that helps readers direct their attention through the text
 
-02. Gentle Emphasis
+02. Gentle Emphasis:
 Subtle typographic emphasis designed to make words easier to navigate visually
 
-03. Soft Breaks
+03. Soft Breaks:
 Breaks text into smaller, more manageable chunks while preserving the natural flow of sentences.
 
 Readers can experiment with these modes and personalize their digital reading experience at their own pace!
