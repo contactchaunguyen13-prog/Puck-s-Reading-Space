@@ -1,4 +1,4 @@
-🐻‍❄️📘Puck's Reading Space: A safe haven for digital reading
+🐻‍❄️ Puck's Reading Space: A safe haven for digital reading
 
 Puck's Reading Space is the flagship product of PuckReads, a student-led initiative exploring ways to make digital reading experience more comfortable and accessible for friends around the world.
 
@@ -6,7 +6,7 @@ Reading doesn't feel the same for everyone. Dense paragraphs, visual navigation,
 
 _Instead of asking readers to adapt to the text, what if the text could adapt to them?_
 
-Designed around flexibility rather than a one-size-fits-all approach, the platform offers three customizable reading modes, so readers can personalize their digital reading experience at their own pace!
+📘 Designed around flexibility rather than a one-size-fits-all approach, the platform offers three customizable reading modes, so readers can personalize their digital reading experience at their own pace!
 
 01. Steady Flow:
 A focus-supporting mode that helps readers direct their attention through the text
