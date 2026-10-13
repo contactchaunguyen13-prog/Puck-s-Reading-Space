@@ -29,4 +29,6 @@ Link to space: pucksreadingspace.vercel.app
 
 Active User counts: 3K+
 
+Visit us on Instagram at @puckreads
+
 © 2026 Puck's Reading Space. Made with care <3
