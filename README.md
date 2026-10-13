@@ -25,10 +25,10 @@ Built with HTML/CSS/Javascript
 
 Hosted on Vercel
 
-Link to space: pucksreadingspace.vercel.app
+Link to space: _pucksreadingspace.vercel.app_
 
 Active User counts: 3K+
 
-Visit us on Instagram at @puckreads
+Visit us on Instagram at _@puckreads_
 
 © 2026 Puck's Reading Space. Made with care <3
