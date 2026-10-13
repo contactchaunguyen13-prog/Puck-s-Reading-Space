@@ -1,4 +1,4 @@
-Puck's Reading Space: A safe haven for digital reading
+🐻‍❄️📘Puck's Reading Space: A safe haven for digital reading
 
 Puck's Reading Space is the flagship product of PuckReads, a student-led initiative exploring ways to make digital reading experience more comfortable and accessible for friends around the world.
 
