@@ -27,7 +27,7 @@ Hosted on Vercel
 
 Link to space: _pucksreadingspace.vercel.app_
 
-Active User counts: 3K+
+Active User counts: 2.6K+
 
 Visit us on Instagram at _@puckreads_
 
